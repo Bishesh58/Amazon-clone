@@ -35,10 +35,10 @@ function Header() {
       </div>
 
       <div className="header__nav">
-        <Link to={!user && '/login'}>
+        <Link to={!user && '/login'} style={{ textDecoration: 'none' }}>
         <div onClick={handleAuthentication}
         className="header__option">
-          <span className="header__optionLineOne">Hello Guest</span>
+          <span className="header__optionLineOne">Hello {user ? user.email: 'Guest'}</span>
           <span className="header__optionLineTwo">{user ? 'Sign Out' : 'Sign In'}</span>
         </div>
         </Link>
@@ -53,7 +53,7 @@ function Header() {
           <span className="header__optionLineTwo">Prime</span>
         </div>
 
-        <Link to="/checkout">
+        <Link to="/checkout" style={{ textDecoration: 'none' }}>
           <div className="header__optionBasket">
               <ShoppingBasketIcon/>
               <span className="header__optionLineTwo header__basketCount">

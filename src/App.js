@@ -42,7 +42,6 @@ function App() {
       <div className="App">
         <Switch>
           <Route path="/login">
-            <h1>Login Page</h1>
             <Login/>
           </Route>
           <Route path="/checkout">

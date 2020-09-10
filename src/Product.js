@@ -1,6 +1,7 @@
 import React from "react";
 import "./Product.css";
 import { useStateValue } from "./StateProvider";
+import 'tachyons';
 
 function Product({ id, title, image, price, rating }) {
   const [{ basket }, dispatch] = useStateValue();
@@ -20,7 +21,7 @@ function Product({ id, title, image, price, rating }) {
   };
 
   return (
-    <div className="product">
+    <div className="product grow bw2 shadow-5">
       <div className="product__info">
         <p>{title}</p>
         <p className="product__price">
