@@ -21,7 +21,7 @@ function Product({ id, title, image, price, rating }) {
   };
 
   return (
-    <div className="product grow bw2 shadow-5">
+    <div className="product bw2 shadow-5">
       <div className="product__info">
         <p>{title}</p>
         <p className="product__price">

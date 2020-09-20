@@ -1,0 +1,40 @@
+.footer__main{
+    color: white;
+    background-color: #232F3E;
+}
+
+.footer__nav{
+    width: 100%;
+    height: 50px;
+    padding: 15px 0;
+    background-color: #37475A;
+    display: block;
+    text-align: center;
+}
+
+.container{
+    padding: 30px;
+}
+
+
+ul{
+    list-style: none;
+    padding-inline-start: 0;
+    font-size: 13px;
+    line-height: 1.6rem;
+}
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer__bottom{
+    width: 100%;
+    height: 50px;
+    padding: 15px 0;
+    display: block;
+    text-align: center;
+    background-color: #131A22;
+}
+
+
