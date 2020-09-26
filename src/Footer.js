@@ -6,11 +6,6 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="footer__main">
-        
-      <div className="footer__nav">
-        <span>Back to top</span>
-      </div>
-
       <div className="footer__section">
         <div className="container">
           <div className="row">

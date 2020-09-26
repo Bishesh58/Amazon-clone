@@ -10,9 +10,14 @@
     min-height: 100px;
     background-color: white;
     z-index: 1;
+    transition: .2s;
 
 }
 
+.product:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); 
+}
 .product__rating{
     display: flex;
 }
@@ -22,6 +27,7 @@
     width: 100%;
     object-fit: contain;
     margin-bottom: 15px;
+    
 }
 
 .product > button{
