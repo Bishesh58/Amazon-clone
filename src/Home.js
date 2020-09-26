@@ -83,9 +83,9 @@ function Home() {
 
             <Product
             id="12345"
-            title="Sceptre 30-inch Curved Gaming Monitor 21:9 2560x1080 Ultra Wide Ultra Slim HDMI DisplayPort up to 200Hz Build-in Speakers, Metal Black (C305B-200UN)"
-            price={329.99}
-            image="https://images-na.ssl-images-amazon.com/images/I/81Wt3h7-V2L._AC_SX679_.jpg"
+            title="Viotek GNV34CB 34-Inch Ultrawide Curved Gaming Monitor | 1080P 100Hz 21:9 | Ultra-Bright VA Panel w/Dynamic Color + FreeSync | HDMI DVI DP 3.5mm | Deep 1500R Curvature (VESA), 34"
+            price={429.99}
+            image="https://images-na.ssl-images-amazon.com/images/I/71D7HFJ006L._AC_SX679_.jpg"
             rating={4}
           />
           
@@ -96,33 +96,33 @@ function Home() {
         <div className="home__row">
           <Product
             id="12321341"
-            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
-            price={11.96}
+            title="RUNMUS Gaming Headset ompatible with PC, PS4, Xbox One"
+            price={30.96}
             rating={5}
-            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+            image="https://images-na.ssl-images-amazon.com/images/I/61lnzTv2a0L._AC_SX679_.jpg"
           />
 
           <Product
             id="49538094"
-            title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
+            title="DualShock 4 Wireless Controller for PlayStation 4"
             price={239.0}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
+            image="https://images-na.ssl-images-amazon.com/images/I/81L9%2B4dTIgL._SX522_.jpg"
           />
 
           <Product
             id="4903850"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
-            price={199.99}
+            title="1080P Webcam with Microphone, Plug and Play, for Windows Mac OS"
+            price={19.99}
             rating={3}
-            image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+            image="https://images-na.ssl-images-amazon.com/images/I/616X3UAvENL._AC_SX679_.jpg"
           />
           <Product
             id="23445930"
-            title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
+            title="M602 RGB Wired Gaming Mouse"
             price={98.99}
             rating={5}
-            image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
+            image="https://images-na.ssl-images-amazon.com/images/I/61MI2KPnKgL._AC_SX679_.jpg"
           />
         </div>
 
